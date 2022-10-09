@@ -439,6 +439,7 @@
 @media screen and (max-width: 800px) {
   #contacto .contenedor-form .mitad input {
     width: 100%;
+    margin-bottom: 2%;
   }
 }
 #contacto .contenedor-form input, #contacto .contenedor-form textarea {
