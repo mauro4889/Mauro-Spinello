@@ -38,7 +38,7 @@
     background-color: rgba(0, 0, 0, 0.8);
     width: 100%;
     position: absolute;
-    top: 48px;
+    top: 5.8em;
     left: 0;
     padding: 10px 0;
   }
@@ -48,6 +48,11 @@
   }
   #inicio .contenido header .contenido-header #nav.responsive ul li {
     margin: 5px 0;
+  }
+}
+@media screen and (max-width: 800px) and (orientation: landscape) {
+  #inicio .contenido header .contenido-header #nav.responsive {
+    top: 6.1em;
   }
 }
 #inicio .contenido header .contenido-header nav ul {
@@ -63,21 +68,6 @@
   transition: 0.5s;
 }
 #inicio .contenido header .contenido-header nav ul li a:hover {
-  color: #ff5080;
-}
-@media screen and (max-width: 800px) {
-  #inicio .contenido header .contenido-header .redes {
-    display: none;
-  }
-}
-#inicio .contenido header .contenido-header .redes a {
-  text-decoration: none;
-  color: #fff;
-  display: inline-block;
-  margin-left: 10px;
-  transition: 0.5s;
-}
-#inicio .contenido header .contenido-header .redes a:hover {
   color: #ff5080;
 }
 #inicio .contenido .presentacion {
@@ -97,7 +87,7 @@
   letter-spacing: 5px;
 }
 #inicio .contenido .presentacion h2 {
-  font-size: 55px;
+  font-size: 45px;
   margin-bottom: 25px;
   text-align: center;
 }
@@ -107,7 +97,7 @@
   }
 }
 #inicio .contenido .presentacion h2 span {
-  font-size: 25px;
+  font-size: 55px;
   color: #ff5080;
 }
 #inicio .contenido .presentacion .descripcion {
@@ -130,4 +120,27 @@
 }
 #inicio .contenido .presentacion a:hover {
   background: #ff5080;
+}
+#inicio .contenido .presentacion .redes {
+  margin: 2% auto;
+}
+#inicio .contenido .presentacion .redes .redes a {
+  text-decoration: none;
+  color: #fff;
+  display: inline-block;
+  margin-left: 10px;
+  transition: 0.5s;
+}
+#inicio .contenido .presentacion .redes .redes a:hover {
+  color: #ff5080;
+}
+#inicio .contenido .presentacion .redes .links {
+  border: none;
+}
+#inicio .contenido .presentacion .redes .links:hover {
+  background-color: rgba(0, 0, 0, 0);
+  color: #ff5080;
+}
+#inicio .contenido .presentacion .redes .links .iconos {
+  font-size: 35px;
 }/*# sourceMappingURL=header.css.map */

@@ -18,7 +18,10 @@ function animateBars() {
 }
 
 window.onclick = function(e) {
-    animateBars()
+    line_1.classList.remove('active_line-1');
+    line_2.classList.remove('active_line-2');
+    line_3.classList.remove('active_line-3');
+    nav.classList.remove('responsive')
 }
 
 aerealD.addEventListener('click', () => {
