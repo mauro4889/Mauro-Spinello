@@ -8,7 +8,6 @@ let line_2 = document.querySelector('.line-2');
 let line_3 = document.querySelector('.line-3');
 let nav = document.getElementById('nav')
 let nav_menu = document.querySelector('.nav_menu');
-let aerealD = document.getElementById('aerealD')
 
 function animateBars() {
     line_1.classList.toggle('active_line-1');
@@ -23,7 +22,3 @@ window.onclick = function(e) {
     line_3.classList.remove('active_line-3');
     nav.classList.remove('responsive')
 }
-
-aerealD.addEventListener('click', () => {
-    window.location = 'https://aereal-d.vercel.app/'
-})
