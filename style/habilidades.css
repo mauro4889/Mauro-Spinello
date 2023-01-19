@@ -9,11 +9,17 @@
   text-align: center;
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
   gap: 5%;
 }
 #habilidades .skills {
   width: 30%;
   margin-bottom: 5%;
+}
+@media screen and (min-width: 1023px) {
+  #habilidades .skills {
+    width: 10%;
+  }
 }
 #habilidades .skills img {
   width: 40%;

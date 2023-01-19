@@ -1,9 +1,9 @@
 #portfolio
     margin-bottom: 2%
 .portfolio
-    max-width: 1100px
-    padding: 100px 0
     margin: auto
+    margin-top: 2em
+    margin-bottom: 10em
     .titulo-seccion
         text-align: center
         font-size: 22px
@@ -18,20 +18,14 @@
         margin: 30px 0
         width: 100%
         .proyecto
-            max-width: 450px
-            width: 30%
+            width: 45%
             height: 12em
             border: 1px solid #000
             margin: 0 10px
-            position: relative
-            overflow: hidden
             cursor: pointer
             &:hover
                 img
                     filter: grayscale(0)
-                .info
-                    opacity: 1
-                    bottom: 0
             img
                 width: 100%
                 height: 100%
@@ -39,12 +33,26 @@
                 object-fit: cover
                 transition: .5s
             .info
-                position: absolute
                 left: 0
                 background-color: rgba(0, 0, 0, .8)
                 color: #ff5080
                 width: 100%
+                min-height: 135px
                 padding: 10px
-                opacity: 0
-                bottom: -40px
-                transition: .5s
+                display: flex
+                flex-direction: column
+                justify-content: space-between
+                @media screen and (min-width: 767px)
+                    min-height: 130px
+                .contenedor-links
+                    width: 100%
+                    margin-top: 1em
+                    display: flex
+                    justify-content: space-around
+                    a
+                        color: #fff
+                        &:visited
+                            color: #fff
+                        i
+                            @media screen and ( min-width: 1023px )
+                                font-size: 25px
