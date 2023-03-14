@@ -13,13 +13,14 @@
   text-transform: uppercase;
   color: #111135;
   text-decoration: underline;
-  -webkit-text-decoration-color: #d3d3d3;
-          text-decoration-color: #d3d3d3;
+  text-decoration-color: #d3d3d3;
   text-decoration-thickness: 5px;
 }
 .portfolio .contenedor-proyectos {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
+  row-gap: 10em;
   margin: 30px 0;
   width: 100%;
 }

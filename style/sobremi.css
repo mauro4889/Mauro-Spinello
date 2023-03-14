@@ -49,8 +49,7 @@
   text-transform: uppercase;
   color: #111135;
   text-decoration: underline;
-  -webkit-text-decoration-color: #d3d3d3;
-          text-decoration-color: #d3d3d3;
+  text-decoration-color: #d3d3d3;
   text-decoration-thickness: 5px;
 }
 @media screen and (max-width: 800px) {
